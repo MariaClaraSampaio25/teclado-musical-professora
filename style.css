@@ -21,3 +21,19 @@ h1{
     margin-bottom: 20px;
     color: var(--branca);
 }
+
+h2{
+    color: var(--branca);
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.teclado{
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(18, 16, 1, 1) 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
